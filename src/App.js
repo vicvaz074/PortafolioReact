@@ -172,36 +172,6 @@ function App() {
       </Container>
 
 
-
-      <Container className="my-5" id="portfolio">
-        <Row>
-          <Col md={6}>
-            <Card className="mb-3">
-              <Card.Img variant="top" src="proyecto1.jpg" />
-              <Card.Body>
-                <Card.Title>Proyecto React</Card.Title>
-                <Card.Text>
-                  Desarrollo de una SPA utilizando React para una gestión eficiente de tareas, incluyendo autenticación y manejo de estado con Redux.
-                </Card.Text>
-                <Button variant="primary" href="https://github.com/ejemplo/proyecto-react">Ver Proyecto <FaArrowRight /></Button>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col md={6}>
-            <Card className="mb-3">
-              <Card.Img variant="top" src="proyecto2.jpg" />
-              <Card.Body>
-                <Card.Title>API con Node.js</Card.Title>
-                <Card.Text>
-                  API RESTful desarrollada con Node.js y Express, implementando JWT para la seguridad y MongoDB para la persistencia de datos.
-                </Card.Text>
-                <Button variant="primary" href="https://github.com/ejemplo/api-node">Ver Proyecto <FaArrowRight /></Button>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
-      </Container>
-
       <Container className="my-5" id="projects">
         <Row>
           <Col>
