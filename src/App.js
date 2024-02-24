@@ -68,7 +68,7 @@ function App() {
   return (
     <div className={darkMode ? 'dark-mode' : ''}>
       <Navbar bg="dark-bg" variant="dark" expand="lg" sticky="top">
-        <Navbar.Brand href="#home">Mi Portafolio</Navbar.Brand>
+        <Navbar.Brand href="#home">Vicente Vázquez</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -90,7 +90,7 @@ function App() {
         <Row className="justify-content-md-center">
           <Col xs={12} md={8}>
             <h1 className="text-center">Bienvenido a Mi Portafolio</h1>
-            <p className="text-center">Estudiante de Ingeniería Mecatrónica apasionado por la tecnología, la simulación y la IA.</p>
+            <p className="text-center">Soy Vicente Vázquez Ramírez, estudiante de Ingeniería Mecatrónica apasionado por la tecnología, la simulación y la IA.</p>
           </Col>
         </Row>
       </Container>
