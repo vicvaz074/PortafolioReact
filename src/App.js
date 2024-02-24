@@ -6,6 +6,16 @@ import logoTec from './img/logotec.jpg';
 import './App.css';
 import emailjs from 'emailjs-com';
 import useScript from './useScript';
+import hackatonImage from './img/hackaton.png';
+import sistemaAutomatizadoImage from './img/qbot.png';
+import maquinaRemoImage from './img/remadora.png';
+import prediccionContaminantesImage from './img/regresionlineal.png';
+import aplicacionCrudImage from './img/crud.png';
+import kosmoImage from './img/kosmo.png';
+import camionElectricoImage from './img/camion.png';
+import encriptadorImage from './img/encriptador.png';
+import tetrisPythonImage from './img/tetris.png';
+import desarrolloVideojuegoUnityImage from './img/unity.png';
 
 
 function sendEmail(e) {
@@ -68,6 +78,7 @@ function App() {
             <Nav.Link href="#portfolio">Portafolio</Nav.Link>
             <Nav.Link href="#projects">Proyectos</Nav.Link>
             <Nav.Link href="#contact">Contacto</Nav.Link>
+            <div id="google_translate_element"></div>
           </Nav>
           <Button variant="outline-light" onClick={() => setDarkMode(!darkMode)}>
             {darkMode ? 'Modo Claro' : 'Modo Oscuro'}
@@ -173,120 +184,156 @@ function App() {
 
 
       <Container className="my-5" id="projects">
-        <Row>
-          <Col>
-            <h2>Proyectos Destacados</h2>
-            <p>Aquí se encuentran algunos de los proyectos en los que he trabajado, que abarcan desde desarrollo web hasta inteligencia artificial y mecatrónica.</p>
-          </Col>
-        </Row>
-        <Row>
-          <Col md={6}>
-            <Card className="mb-3">
-              <Card.Body>
-                <Card.Title>Hackaton Tec de Monterrey Reto Liverpool</Card.Title>
-                <Card.Text>
-                  Lideré y desarrollé un chatbot como parte del reto Liverpool, enfocándome en el backend y el desarrollo web, involucrando tecnologías de frontend.
-                </Card.Text>
-                <Button variant="primary" href="#">Más Info</Button>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col md={6}>
-            <Card className="mb-3">
-              <Card.Body>
-                <Card.Title>Sistema Automatizado de Transporte de Materiales</Card.Title>
-                <Card.Text>
-                  Contribuí en la creación de un sistema automatizado para una fábrica, desde la identificación de requisitos hasta la programación del sistema.
-                </Card.Text>
-                <Button variant="primary" href="#">Más Info</Button>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col md={6}>
-            <Card className="mb-3">
-              <Card.Body>
-                <Card.Title>Máquina de Remo Deportivo con Microcontroladores</Card.Title>
-                <Card.Text>
-                  Desarrollé una máquina de remo deportiva, seleccionando componentes, diseñando el sistema de control y programando los microcontroladores.
-                </Card.Text>
-                <Button variant="primary" href="#">Más Info</Button>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col md={6}>
-            <Card className="mb-3">
-              <Card.Body>
-                <Card.Title>Predicción Estadística de Contaminantes</Card.Title>
-                <Card.Text>
-                  Implementé sistemas de regresión lineal y múltiple para predecir la concentración de contaminantes, utilizando Minitab para el análisis estadístico.
-                </Card.Text>
-                <Button variant="primary" href="#">Más Info</Button>
-              </Card.Body>
-            </Card>
-         </Col>
+      <Row>
+        <Col>
+          <h2>Proyectos Destacados</h2>
+          <p>Aquí se encuentran algunos de los proyectos en los que he trabajado, que abarcan desde desarrollo web hasta inteligencia artificial y mecatrónica.</p>
+        </Col>
+      </Row>
+      <Row>
         <Col md={6}>
           <Card className="mb-3">
+            <Card.Img variant="top" src={hackatonImage} />
+            <Card.Body>
+              <Card.Title>Hackaton Tec de Monterrey Reto Liverpool</Card.Title>
+              <Card.Text>
+                Lideré y desarrollé un chatbot como parte del reto Liverpool, enfocándome en el backend y el desarrollo web, involucrando tecnologías de frontend.
+              </Card.Text>
+              <Card.Text>
+                <small className="text-muted">Tecnologías usadas: Node.js, React, Dialogflow</small>
+              </Card.Text>
+              <Button variant="primary" href="https://hackaton-v2.vercel.app/">Ver Proyecto <FaArrowRight /></Button>
+            </Card.Body>
+          </Card>
+        </Col>
+        {/* Repite la estructura anterior para cada proyecto, actualizando la información según corresponda */}
+        <Col md={6}>
+          <Card className="mb-3">
+            <Card.Img variant="top" src={sistemaAutomatizadoImage} />
+            <Card.Body>
+              <Card.Title>Sistema Automatizado de Transporte de Materiales</Card.Title>
+              <Card.Text>
+                Contribuí en la creación de un sistema automatizado para una fábrica, desde la identificación de requisitos hasta la programación del sistema.
+              </Card.Text>
+              <Card.Text>
+                <small className="text-muted">Tecnologías usadas: C++, Arduino, Sensores IR</small>
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col md={6}>
+          <Card className="mb-3">
+            <Card.Img variant="top" src={maquinaRemoImage} />
+            <Card.Body>
+              <Card.Title>Máquina de Remo Deportivo con Microcontroladores</Card.Title>
+              <Card.Text>
+                Desarrollé una máquina de remo deportiva, seleccionando componentes, diseñando el sistema de control y programando los microcontroladores.
+              </Card.Text>
+              <Card.Text>
+                <small className="text-muted">Tecnologías usadas: Microcontroladores, Diseño CAD</small>
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col md={6}>
+          <Card className="mb-3">
+            <Card.Img variant="top" src={prediccionContaminantesImage} />
+            <Card.Body>
+              <Card.Title>Predicción Estadística de Contaminantes</Card.Title>
+              <Card.Text>
+                Implementé sistemas de regresión lineal y múltiple para predecir la concentración de contaminantes, utilizando Minitab para el análisis estadístico.
+              </Card.Text>
+              <Card.Text>
+                <small className="text-muted">Tecnologías usadas: Minitab, Regresión Lineal</small>
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col md={6}>
+          <Card className="mb-3">
+            <Card.Img variant="top" src={aplicacionCrudImage} />
             <Card.Body>
               <Card.Title>Aplicación CRUD</Card.Title>
               <Card.Text>
                 Desarrollo de una aplicación CRUD para gestión de datos, implementada con React y Node.js, enfocada en la eficiencia y seguridad de la información.
               </Card.Text>
-              <Button variant="primary" href="#">Más Info</Button>
+              <Card.Text>
+                <small className="text-muted">Tecnologías usadas: React, Node.js, MongoDB</small>
+              </Card.Text>
+              <Button variant="primary" href="https://vicvaz074.github.io/crud/">Ver Proyecto <FaArrowRight /></Button>
             </Card.Body>
           </Card>
         </Col>
         <Col md={6}>
           <Card className="mb-3">
+            <Card.Img variant="top" src={kosmoImage} />
             <Card.Body>
               <Card.Title>Kosmo - Comercio Electrónico</Card.Title>
               <Card.Text>
                 Creación de Kosmo, una plataforma de comercio electrónico basada en chatbots para mejorar la experiencia de compra, utilizando tecnologías de IA.
               </Card.Text>
-              <Button variant="primary" href="#">Más Info</Button>
+              <Card.Text>
+                <small className="text-muted">Tecnologías usadas: Python, Flask, Chatbot AI</small>
+              </Card.Text>
+              <Button variant="primary" href="https://kosmoprueba-09bb3b275582.herokuapp.com/">Ver Proyecto <FaArrowRight /></Button>
             </Card.Body>
           </Card>
         </Col>
         <Col md={6}>
           <Card className="mb-3">
+            <Card.Img variant="top" src={camionElectricoImage} />
             <Card.Body>
               <Card.Title>Diseño de Camión Eléctrico</Card.Title>
               <Card.Text>
-                Participé en el diseño y desarrollo de un camión eléctrico desde cero, incluyendo el diseño en CAD y la creación de modelos matemáticos para su funcionamiento.
+                Participé en el diseño y desarrollo de un camión eléctrico, enfocándome en la integración de sistemas eléctricos y la optimización de la eficiencia energética.
               </Card.Text>
-              <Button variant="primary" href="#">Más Info</Button>
+              <Card.Text>
+                <small className="text-muted">Tecnologías usadas: Sistemas eléctricos, CAD, Simulación energética</small>
+              </Card.Text>
             </Card.Body>
           </Card>
         </Col>
         <Col md={6}>
           <Card className="mb-3">
+            <Card.Img variant="top" src={encriptadorImage} />
             <Card.Body>
-              <Card.Title>Encriptador/Desencriptador</Card.Title>
+              <Card.Title>Encriptador de Mensajes</Card.Title>
               <Card.Text>
-                Desarrollé una herramienta de encriptación y desencriptación de datos, enfocándome en la seguridad y protección de la información personal y corporativa.
+                Desarrollo de una aplicación de escritorio para la encriptación de mensajes, utilizando algoritmos avanzados para asegurar la privacidad de la información.
               </Card.Text>
-              <Button variant="primary" href="#">Más Info</Button>
+              <Card.Text>
+                <small className="text-muted">Tecnologías usadas: Java, Criptografía</small>
+              </Card.Text>
+              <Button variant="primary" href="https://vicvaz074.github.io/Encriptador-de-texto/">Ver Proyecto <FaArrowRight /></Button>
             </Card.Body>
           </Card>
         </Col>
         <Col md={6}>
           <Card className="mb-3">
+            <Card.Img variant="top" src={tetrisPythonImage} />
             <Card.Body>
-              <Card.Title>Tetris con Python</Card.Title>
+              <Card.Title>Tetris en Python</Card.Title>
               <Card.Text>
-                Implementación del clásico juego Tetris utilizando Python, demostrando habilidades en programación y lógica de juegos.
+                Implementación del juego clásico Tetris utilizando Python, centrándome en la lógica del juego y la interfaz de usuario gráfica.
               </Card.Text>
-              <Button variant="primary" href="#">Más Info</Button>
+              <Card.Text>
+                <small className="text-muted">Tecnologías usadas: Python, Pygame</small>
+              </Card.Text>
             </Card.Body>
           </Card>
         </Col>
         <Col md={6}>
           <Card className="mb-3">
+            <Card.Img variant="top" src={desarrolloVideojuegoUnityImage} />
             <Card.Body>
-              <Card.Title>Desarrollo de Videojuego en Unity</Card.Title>
+              <Card.Title>Desarrollo de Videojuego con Unity</Card.Title>
               <Card.Text>
-                Creación de un videojuego utilizando Unity y C#, enfocándome en la programación de mecánicas de juego y la experiencia del usuario.
+                Colaboré en el desarrollo de un videojuego utilizando Unity, trabajando en el diseño de niveles, programación de mecánicas de juego y optimización.
               </Card.Text>
-              <Button variant="primary" href="#">Más Info</Button>
+              <Card.Text>
+                <small className="text-muted">Tecnologías usadas: Unity, C#</small>
+              </Card.Text>
+              <Button variant="primary" href="https://vicvaz074.github.io/SkylineWeb/">Ver Proyecto <FaArrowRight /></Button>
             </Card.Body>
           </Card>
         </Col>
@@ -344,7 +391,6 @@ function App() {
           <p>
             Encuéntrame en <a href="https://www.linkedin.com/in/vicvaz074/" className="text-white"><FaLinkedin /></a>, <a href="https://github.com/vicvaz074" className="text-white"><FaGithub /></a> para más información.
           </p>
-            <div id="google_translate_element"></div>
         </Container>
       </footer>
     </div>

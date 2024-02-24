@@ -275,6 +275,7 @@ body, .dark-mode {
   align-items: center;
 }
 
+
 /* Esta sección extiende el diseño con más detalles y elementos */
 .input-field {
   border: 2px solid #ddd;
@@ -297,3 +298,28 @@ body, .dark-mode {
   color: #7f8c8d;
 }
 
+#google_translate_element {
+  position: fixed; /* Hace que el elemento sea fijo en la pantalla */
+  bottom: 20px; /* Distancia desde el fondo de la pantalla */
+  right: 20px; /* Distancia desde el lado derecho de la pantalla */
+  z-index: 1000; /* Asegura que el widget se muestre por encima de otros elementos */
+}
+
+/* Opcionalmente, puedes añadir estilos adicionales para mejorar la apariencia */
+#google_translate_element div, #google_translate_element iframe {
+  margin: 0 auto !important;
+  text-align: center !important;
+  display: block !important;
+}
+
+.card-img-top {
+  width: 100%; /* Asegura que la imagen cubra el ancho del card. */
+  height: 200px; /* Define una altura fija para la imagen. */
+  max-height: 200px; /* Asegura que la imagen no se estire más allá de la altura máxima. */
+  object-fit: scale-down; /* Asegura que la imagen cubra el área asignada sin distorsionarse. */
+}
+
+
+.dark-mode .text-muted {
+  color: #ffffff !important;
+}
