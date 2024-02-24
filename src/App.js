@@ -68,7 +68,6 @@ function App() {
             <Nav.Link href="#portfolio">Portafolio</Nav.Link>
             <Nav.Link href="#projects">Proyectos</Nav.Link>
             <Nav.Link href="#contact">Contacto</Nav.Link>
-            <div id="google_translate_element"></div>
           </Nav>
           <Button variant="outline-light" onClick={() => setDarkMode(!darkMode)}>
             {darkMode ? 'Modo Claro' : 'Modo Oscuro'}
@@ -375,6 +374,7 @@ function App() {
           <p>
             Encuéntrame en <a href="https://www.linkedin.com/in/vicvaz074/" className="text-white"><FaLinkedin /></a>, <a href="https://github.com/vicvaz074" className="text-white"><FaGithub /></a> para más información.
           </p>
+            <div id="google_translate_element"></div>
         </Container>
       </footer>
     </div>
