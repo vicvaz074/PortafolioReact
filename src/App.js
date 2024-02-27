@@ -16,6 +16,7 @@ import camionElectricoImage from './img/camion.png';
 import encriptadorImage from './img/encriptador.png';
 import tetrisPythonImage from './img/tetris.png';
 import desarrolloVideojuegoUnityImage from './img/unity.png';
+import curriculmSpanish from './img/CurriculumEspañol.pdf';
 
 
 function sendEmail(e) {
@@ -78,7 +79,6 @@ function App() {
             <Nav.Link href="#portfolio">Portafolio</Nav.Link>
             <Nav.Link href="#projects">Proyectos</Nav.Link>
             <Nav.Link href="#contact">Contacto</Nav.Link>
-            <div id="google_translate_element"></div>
           </Nav>
           <Button variant="outline-light" onClick={() => setDarkMode(!darkMode)}>
             {darkMode ? 'Modo Claro' : 'Modo Oscuro'}
@@ -105,6 +105,7 @@ function App() {
             <p>Como estudiante de Ingeniería Mecatrónica en el Tecnológico de Monterrey y asistente al FullStack Bootcamp en la Universidad UTEL, estoy profundamente involucrado en el mundo de la tecnología, con un enfoque especial en la simulación y la inteligencia artificial aplicadas en equipos pesados. Mi camino en el desarrollo web se ha fortalecido mediante diversos cursos y certificaciones, contribuyendo significativamente a mi crecimiento personal y profesional.</p>
           </Col>
         </Row>
+        <div id="google_translate_element"></div>
       </Container>
 
       <Container className="my-5" id="skills">
@@ -349,6 +350,7 @@ function App() {
             <p><strong>Email:</strong> vicvaz074@outlook.com</p>
             <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/vicvaz074/">vicvaz074</a></p>
             <p><strong>GitHub:</strong> <a href="https://github.com/vicvaz074">vicvaz074</a></p>
+            <Button variant="primary" href={curriculmSpanish}>Curriculum en español </Button>
           </Col>
           <Col md={6}>
             <Card>
