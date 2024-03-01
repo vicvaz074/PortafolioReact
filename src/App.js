@@ -276,7 +276,7 @@ function App() {
               <Card.Text>
                 <small className="text-muted">Tecnologías usadas: Python, Flask, Chatbot AI</small>
               </Card.Text>
-              <Button variant="primary" href="https://kosmoprueba-09bb3b275582.herokuapp.com/">Ver Proyecto <FaArrowRight /></Button>
+              <Button variant="primary" href="https://kosmov2-c8cfe0aa7eb5.herokuapp.com//">Ver Proyecto <FaArrowRight /></Button>
             </Card.Body>
           </Card>
         </Col>
