@@ -16,7 +16,7 @@ import camionElectricoImage from './img/camion.png';
 import encriptadorImage from './img/encriptador.png';
 import tetrisPythonImage from './img/tetris.png';
 import desarrolloVideojuegoUnityImage from './img/unity.png';
-import curriculmSpanish from './img/CurriculumEspañol.pdf';
+import curriculmSpanish from './img/Curriculum.pdf';
 
 
 function sendEmail(e) {
