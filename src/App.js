@@ -102,7 +102,7 @@ function App() {
           </Col>
           <Col md={8}>
             <h2>Sobre Mí</h2>
-            <p>Como estudiante de Ingeniería Mecatrónica en el Tecnológico de Monterrey y asistente al FullStack Bootcamp en la Universidad UTEL, estoy profundamente involucrado en el mundo de la tecnología, con un enfoque especial en la simulación y la inteligencia artificial aplicadas en equipos pesados. Mi camino en el desarrollo web se ha fortalecido mediante diversos cursos y certificaciones, contribuyendo significativamente a mi crecimiento personal y profesional.</p>
+            <p>Como estudiante de 21 años en Ingeniería Mecatrónica en el Tecnológico de Monterrey y asistente al FullStack Bootcamp en la Universidad UTEL, estoy profundamente involucrado en el mundo de la tecnología, con un enfoque especial en la simulación y la inteligencia artificial aplicadas en equipos pesados. Mi camino en el desarrollo web se ha fortalecido mediante diversos cursos y certificaciones, contribuyendo significativamente a mi crecimiento personal y profesional.</p>
           </Col>
         </Row>
         <div id="google_translate_element"></div>
