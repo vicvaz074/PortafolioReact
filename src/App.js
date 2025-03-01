@@ -102,7 +102,7 @@ function App() {
           </Col>
           <Col md={8}>
             <h2>Sobre Mí</h2>
-            <p>Como estudiante de 21 años en Ingeniería Mecatrónica en el Tecnológico de Monterrey y asistente al FullStack Bootcamp en la Universidad UTEL, estoy profundamente involucrado en el mundo de la tecnología, con un enfoque especial en la simulación y la inteligencia artificial aplicadas en equipos pesados. Mi camino en el desarrollo web se ha fortalecido mediante diversos cursos y certificaciones, contribuyendo significativamente a mi crecimiento personal y profesional.</p>
+            <p>Soy Ingeniero en Mecatrónica (2024) del Tecnológico de Monterrey, con experiencia en desarrollo Fullstack, Inteligencia Artificial y automatización industrial. Me especializo en crear soluciones innovadoras combinando desarrollo web, IA aplicada y tecnologías en la nube. Actualmente, lidero el desarrollo de una herramienta de IA para apoyo legal en Davara Abogados, colaborando con Microsoft. Este proyecto involucra desarrollo completo (Front-End y Back-End) y la integración de Azure AI para optimizar procesos legales.</p>
           </Col>
         </Row>
         <div id="google_translate_element"></div>
@@ -276,7 +276,7 @@ function App() {
               <Card.Text>
                 <small className="text-muted">Tecnologías usadas: Python, Flask, Chatbot AI</small>
               </Card.Text>
-              <Button variant="primary" href="https://kosmov2-c8cfe0aa7eb5.herokuapp.com//">Ver Proyecto <FaArrowRight /></Button>
+              <Button variant="primary" href="https://kosmoprueba.vercel.app/">Ver Proyecto <FaArrowRight /></Button>
             </Card.Body>
           </Card>
         </Col>
