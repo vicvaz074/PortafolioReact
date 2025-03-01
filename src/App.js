@@ -102,7 +102,7 @@ function App() {
           </Col>
           <Col md={8}>
             <h2>Sobre Mí</h2>
-            <p>Soy Ingeniero en Mecatrónica (2024) del Tecnológico de Monterrey, con experiencia en desarrollo Fullstack, Inteligencia Artificial y automatización industrial. Me especializo en crear soluciones innovadoras combinando desarrollo web, IA aplicada y tecnologías en la nube. Actualmente, lidero el desarrollo de una herramienta de IA para apoyo legal en Davara Abogados, colaborando con Microsoft. Este proyecto involucra desarrollo completo (Front-End y Back-End) y la integración de Azure AI para optimizar procesos legales.</p>
+            <p>Soy Ingeniero en Mecatrónica graduado del Tecnológico de Monterrey (2024), con experiencia en desarrollo Fullstack, Inteligencia Artificial y automatización industrial. Me especializo en crear soluciones innovadoras combinando desarrollo web, IA aplicada y tecnologías en la nube. Actualmente, lidero el desarrollo de una herramienta de IA para apoyo legal en Davara Abogados, colaborando con Microsoft. Este proyecto involucra desarrollo completo (Front-End y Back-End) y la integración de Azure AI para optimizar procesos legales.</p>
           </Col>
         </Row>
         <div id="google_translate_element"></div>
