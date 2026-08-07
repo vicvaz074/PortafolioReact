@@ -64,7 +64,7 @@ function CapabilityMap({ groups, active, setActive }) {
 }
 
 export function Capabilities({ content }) {
-  const [active, setActive] = useState('ai');
+  const [active, setActive] = useState('backend');
   const selected = content.groups[active];
 
   return (
