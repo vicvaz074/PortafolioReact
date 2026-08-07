@@ -1,49 +1,22 @@
 {
-  "name": "mi-portafolio",
-  "version": "0.1.0",
+  "name": "vicente-vazquez-portfolio",
   "private": true,
-  "dependencies": {
-    "@fortawesome/fontawesome-free": "^6.5.1",
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "bootstrap": "^5.3.3",
-    "emailjs": "^4.0.3",
-    "emailjs-com": "^3.2.0",
-    "i18next": "^23.10.0",
-    "i18next-browser-languagedetector": "^7.2.0",
-    "react": "^18.2.0",
-    "react-bootstrap": "^2.10.1",
-    "react-dom": "^18.2.0",
-    "react-i18next": "^14.0.5",
-    "react-icons": "^5.0.1",
-    "react-scripts": "5.0.1",
-    "react-scroll": "^1.9.0",
-    "react-spring": "^9.7.3",
-    "web-vitals": "^2.1.4"
-  },
+  "version": "2.0.0",
+  "type": "module",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "npm run build"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "dependencies": {
+    "@fontsource-variable/space-grotesk": "^5.3.0",
+    "@fontsource/ibm-plex-mono": "^5.3.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.5",
+    "vite": "^8.2.1"
   }
 }
