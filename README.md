@@ -1,6 +1,6 @@
 # Vicente Vázquez — Portfolio
 
-Personal bilingual portfolio for AI Product, Full-Stack AI and AI Solutions roles.
+Personal bilingual portfolio for Full-Stack Development, Product Engineering and AI Solutions roles.
 
 Live site: [portafolio-react-nu.vercel.app](https://portafolio-react-nu.vercel.app/)
 

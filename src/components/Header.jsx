@@ -106,7 +106,7 @@ export function Header({ language, setLanguage, nav, activeSection, cvHref }) {
           <span className="brand__mark" aria-hidden="true">V/V</span>
           <span className="brand__copy">
             <strong>Vicente Vázquez</strong>
-            <small>AI Product Engineer</small>
+            <small>{nav.role}</small>
           </span>
         </a>
 

@@ -4,7 +4,7 @@ import { ArrowIcon, DownloadIcon } from './Icons';
 import { SystemDiagram } from './SystemDiagram';
 
 export function Hero({ content, cvHref }) {
-  const [activeLayer, setActiveLayer] = useState('ai');
+  const [activeLayer, setActiveLayer] = useState('services');
   const active = content.layers[activeLayer];
 
   return (

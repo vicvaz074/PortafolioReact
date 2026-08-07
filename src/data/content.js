@@ -1,13 +1,14 @@
 export const content = {
   es: {
     meta: {
-      title: 'Vicente Vázquez — AI Product Engineer',
+      title: 'Vicente Vázquez — Full-Stack Developer',
       description:
-        'Portafolio de Vicente Vázquez, AI Product Engineer en Ciudad de México. Productos de IA, software full-stack y sistemas operables.',
+        'Portafolio de Vicente Vázquez, desarrollador full-stack en Ciudad de México. React, TypeScript, Python, APIs, datos, cloud e IA aplicada.',
     },
     nav: {
       main: 'Principal',
       home: 'Vicente Vázquez — Inicio',
+      role: 'Full-Stack Developer',
       navigation: 'Navegación',
       sectionCount: '05 secciones',
       systems: 'Sistemas',
@@ -24,14 +25,14 @@ export const content = {
       language: 'Cambiar idioma',
     },
     hero: {
-      title: 'Construyo productos de IA para el mundo real.',
-      body: 'Del descubrimiento al deploy: conecto producto, software, datos e IA para entregar sistemas seguros, claros y operables.',
+      title: 'Construyo software para problemas reales.',
+      body: 'Del descubrimiento al deploy: diseño interfaces, construyo APIs, modelo datos y opero software; integro IA cuando aporta valor real.',
       primary: 'Explorar sistemas',
       secondary: 'Descargar CV',
-      status: 'México · Disponible para AI Product, Full-Stack AI y AI Solutions',
+      status: 'México · Disponible para Full-Stack, Product Engineering y AI Solutions',
       select: 'Selecciona una capa',
       touch: 'Toca una capa',
-      layerLabel: 'Capas de un producto de IA',
+      layerLabel: 'Capas de un producto digital',
       layers: {
         product: {
           label: 'PRODUCTO',
@@ -62,7 +63,7 @@ export const content = {
     systems: {
       label: '01 / SISTEMAS',
       title: 'Sistemas seleccionados',
-      intro: 'Productos que conectan necesidades reales, ingeniería de software e IA aplicada.',
+      intro: 'Productos que conectan necesidades reales, software full-stack, datos e IA aplicada.',
       open: 'Ver arquitectura',
       close: 'Cerrar arquitectura',
       cases: [
@@ -70,8 +71,8 @@ export const content = {
           id: 'privacy',
           number: '01',
           meta: 'PRODUCTO END-TO-END · CASO ANONIMIZADO',
-          title: 'Plataforma de privacidad y gobernanza de IA',
-          body: 'Una plataforma modular con controles de acceso, auditoría, trazabilidad, reportes y flujos asistidos por IA.',
+          title: 'Plataforma B2B de privacidad y gobernanza',
+          body: 'Una plataforma modular full-stack con controles de acceso, auditoría, trazabilidad, reportes y flujos asistidos por IA.',
           outcome: 'Producto interno operable, construido desde el descubrimiento hasta el despliegue.',
           stack: ['React / Next', 'TypeScript', 'Python', 'PostgreSQL', 'OpenAI / Azure', 'Docker'],
           flow: ['Necesidad', 'Producto', 'Aplicación', 'Datos & IA', 'Entrega'],
@@ -92,7 +93,7 @@ export const content = {
           id: 'onprem',
           number: '03',
           meta: 'ELECTRON · DOCKER · SQL',
-          title: 'Sistema de IA on-premise',
+          title: 'Aplicación full-stack on-premise',
           body: 'Aplicación instalable que coordina interfaz, servicios y datos locales para entornos con requisitos operativos específicos.',
           outcome: 'Entrega empaquetada con instalación, registros, manejo de errores y diagnóstico.',
           stack: ['Electron', 'React', 'Python', 'Docker', 'SQL', 'Local-first'],
@@ -103,7 +104,7 @@ export const content = {
     },
     trajectory: {
       label: '02 / TRAYECTORIA',
-      title: 'De sistemas físicos a productos de IA.',
+      title: 'De sistemas físicos a productos digitales.',
       intro: 'Una trayectoria construida entre ingeniería, producto y contextos donde la tecnología tiene que funcionar de verdad.',
       current: 'AHORA',
       roles: [
@@ -289,8 +290,8 @@ export const content = {
     },
     profile: {
       label: '05 / PERFIL',
-      title: 'Ingeniero de producto con mentalidad de sistemas.',
-      body: 'Soy ingeniero en Mecatrónica por el Tecnológico de Monterrey. Hoy diseño y construyo productos de IA de extremo a extremo, combinando criterio de producto, software full-stack y entendimiento de dominio.',
+      title: 'Desarrollador full-stack con mentalidad de producto y sistemas.',
+      body: 'Soy ingeniero en Mecatrónica por el Tecnológico de Monterrey. Diseño y construyo productos digitales de extremo a extremo: interfaces, APIs, automatizaciones, datos, despliegue e IA cuando aporta valor.',
       note: 'Mi experiencia en privacidad y datos personales es conocimiento de dominio aplicado a producto; no ofrezco asesoría legal.',
       facts: [
         ['BASE', 'Ciudad de México'],
@@ -302,7 +303,7 @@ export const content = {
     contact: {
       label: '06 / CONTACTO',
       title: '¿Hay un problema difícil detrás del rol? Hablemos.',
-      body: 'Estoy interesado en equipos que convierten IA en productos útiles, medibles y operables.',
+      body: 'Estoy abierto a roles de desarrollo full-stack, product engineering y soluciones técnicas donde pueda construir de extremo a extremo.',
       email: 'Escribir por correo',
       linkedin: 'LinkedIn',
       github: 'GitHub',
@@ -318,13 +319,14 @@ export const content = {
   },
   en: {
     meta: {
-      title: 'Vicente Vázquez — AI Product Engineer',
+      title: 'Vicente Vázquez — Full-Stack Developer',
       description:
-        'Portfolio of Vicente Vázquez, an AI Product Engineer in Mexico City building full-stack AI products and dependable systems.',
+        'Portfolio of Vicente Vázquez, a full-stack developer in Mexico City working with React, TypeScript, Python, APIs, data, cloud and applied AI.',
     },
     nav: {
       main: 'Primary',
       home: 'Vicente Vázquez — Home',
+      role: 'Full-Stack Developer',
       navigation: 'Navigation',
       sectionCount: '05 sections',
       systems: 'Systems',
@@ -341,14 +343,14 @@ export const content = {
       language: 'Change language',
     },
     hero: {
-      title: 'I build AI products for the real world.',
-      body: 'From discovery to deployment: I connect product, software, data and AI to deliver secure, clear and operable systems.',
+      title: 'I build software for real-world problems.',
+      body: 'From discovery to deployment: I design interfaces, build APIs, model data and operate software—using AI when it adds real value.',
       primary: 'Explore systems',
       secondary: 'Download résumé',
-      status: 'Mexico · Open to AI Product, Full-Stack AI and AI Solutions roles',
+      status: 'Mexico · Open to Full-Stack, Product Engineering and AI Solutions roles',
       select: 'Select a layer',
       touch: 'Tap a layer',
-      layerLabel: 'Layers of an AI product',
+      layerLabel: 'Layers of a digital product',
       layers: {
         product: {
           label: 'PRODUCT',
@@ -379,7 +381,7 @@ export const content = {
     systems: {
       label: '01 / SYSTEMS',
       title: 'Selected systems',
-      intro: 'Products connecting real needs, software engineering and applied AI.',
+      intro: 'Products connecting real needs, full-stack software, data and applied AI.',
       open: 'View architecture',
       close: 'Close architecture',
       cases: [
@@ -387,8 +389,8 @@ export const content = {
           id: 'privacy',
           number: '01',
           meta: 'END-TO-END PRODUCT · ANONYMIZED CASE',
-          title: 'Privacy and AI governance platform',
-          body: 'A modular platform with access controls, auditability, traceability, reporting and AI-assisted workflows.',
+          title: 'B2B privacy and governance platform',
+          body: 'A modular full-stack platform with access controls, auditability, traceability, reporting and AI-assisted workflows.',
           outcome: 'An operable internal product, built from discovery through deployment.',
           stack: ['React / Next', 'TypeScript', 'Python', 'PostgreSQL', 'OpenAI / Azure', 'Docker'],
           flow: ['Need', 'Product', 'Application', 'Data & AI', 'Delivery'],
@@ -409,7 +411,7 @@ export const content = {
           id: 'onprem',
           number: '03',
           meta: 'ELECTRON · DOCKER · SQL',
-          title: 'On-premise AI system',
+          title: 'On-premise full-stack application',
           body: 'An installable application coordinating interface, services and local data for specific operational requirements.',
           outcome: 'A packaged delivery with installation, logs, error handling and diagnostics.',
           stack: ['Electron', 'React', 'Python', 'Docker', 'SQL', 'Local-first'],
@@ -420,7 +422,7 @@ export const content = {
     },
     trajectory: {
       label: '02 / TRAJECTORY',
-      title: 'From physical systems to AI products.',
+      title: 'From physical systems to digital products.',
       intro: 'A path built across engineering, product and contexts where technology has to work for real.',
       current: 'NOW',
       roles: [
@@ -606,8 +608,8 @@ export const content = {
     },
     profile: {
       label: '05 / PROFILE',
-      title: 'A product engineer with a systems mindset.',
-      body: 'I hold a Mechatronics Engineering degree from Tecnológico de Monterrey. Today I design and build end-to-end AI products, combining product judgment, full-stack software and domain understanding.',
+      title: 'A full-stack developer with a product and systems mindset.',
+      body: 'I hold a Mechatronics Engineering degree from Tecnológico de Monterrey. I design and build end-to-end digital products across interfaces, APIs, automation, data, delivery and AI when it adds value.',
       note: 'My privacy and personal-data experience is domain knowledge applied to product; I do not provide legal advice.',
       facts: [
         ['BASE', 'Mexico City'],
@@ -619,7 +621,7 @@ export const content = {
     contact: {
       label: '06 / CONTACT',
       title: 'Is there a hard problem behind the role? Let’s talk.',
-      body: 'I am interested in teams turning AI into useful, measurable and operable products.',
+      body: 'I am open to full-stack development, product engineering and technical solutions roles where I can build end to end.',
       email: 'Send an email',
       linkedin: 'LinkedIn',
       github: 'GitHub',
