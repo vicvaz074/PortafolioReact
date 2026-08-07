@@ -58,22 +58,39 @@ export default function App() {
   }, [language]);
 
   useEffect(() => {
-    const ids = ['systems', 'trajectory', 'capabilities', 'contact'];
-    const sectionObserver = new IntersectionObserver(
-      (entries) => {
-        const visible = entries
-          .filter((entry) => entry.isIntersecting)
-          .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
-        if (visible?.target.id) setActiveSection(visible.target.id);
-      },
-      { rootMargin: '-25% 0px -55% 0px', threshold: [0, 0.1, 0.3] },
-    );
+    const ids = ['systems', 'trajectory', 'capabilities', 'archive', 'contact'];
+    let frame;
 
-    ids.forEach((id) => {
-      const section = document.getElementById(id);
-      if (section) sectionObserver.observe(section);
-    });
-    return () => sectionObserver.disconnect();
+    const updateActiveSection = () => {
+      window.cancelAnimationFrame(frame);
+      frame = window.requestAnimationFrame(() => {
+        const pageBottom = window.scrollY + window.innerHeight;
+        const documentBottom = document.documentElement.scrollHeight;
+        const marker = window.scrollY + window.innerHeight * 0.36;
+        let current = ids[0];
+
+        if (pageBottom >= documentBottom - 4) {
+          current = 'contact';
+        } else {
+          ids.forEach((id) => {
+            const section = document.getElementById(id);
+            if (section && section.offsetTop <= marker) current = id;
+          });
+        }
+
+        setActiveSection((previous) => (previous === current ? previous : current));
+      });
+    };
+
+    updateActiveSection();
+    window.addEventListener('scroll', updateActiveSection, { passive: true });
+    window.addEventListener('resize', updateActiveSection);
+
+    return () => {
+      window.cancelAnimationFrame(frame);
+      window.removeEventListener('scroll', updateActiveSection);
+      window.removeEventListener('resize', updateActiveSection);
+    };
   }, []);
 
   useEffect(() => {
@@ -99,6 +116,7 @@ export default function App() {
         setLanguage={setLanguage}
         nav={copy.nav}
         activeSection={activeSection}
+        cvHref={cvHref}
       />
       <main id="main">
         <Hero content={copy.hero} cvHref={cvHref} />
